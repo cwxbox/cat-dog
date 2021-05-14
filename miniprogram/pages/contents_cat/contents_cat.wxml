@@ -1,0 +1,6 @@
+<view class="all">
+<image class="img" src="{{cat.image}}"></image>
+</view>
+<text class="name">姓名：{{cat.name}}</text>
+<text class="character">性格：{{cat.character}}</text>
+<text class="location">活动范围：{{cat.location}}</text>

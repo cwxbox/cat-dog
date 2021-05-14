@@ -1,0 +1,7 @@
+<view class="all">
+<image class="img" src="{{dog.image}}"></image>
+</view>
+<text class="name">姓名：{{dog.name}}</text>
+<text class="character">性格：{{dog.character}}</text>
+<text class="location">活动范围：{{dog.location}}</text>
+

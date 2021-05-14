@@ -1,0 +1,12 @@
+<view class="all">
+		<text class="text-title">青年志愿者联合会</text>
+		<image class="imge" src="../../images/icon/logo.jpg"></image>
+		<text class="text-title2">协会介绍</text>
+		<text class="content"></text>
+
+		<text class="text-end">2021.4.26 </text>
+		<text class="text-end">小程序开发:储物箱</text>
+		<text class="text-end">程序维护(QQ):1398680844</text>
+    <text class="text-end">萌宠资料合集:</text>
+		<text class="content"></text>
+</view>

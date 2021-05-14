@@ -1,0 +1,44 @@
+page{
+	background-color: #ffffff;
+}
+.all{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.text-title{
+	padding-top: 15px;
+	font-size: large;
+	font-weight:bold;
+}
+.imge{
+	text-align: center;
+	width: 200px;
+	height: 200px;
+}
+.text-title2{
+	margin-left: 10px;
+	margin-right: auto;
+	text-align: left;
+	font-weight:bold;
+}
+
+.text-end{
+	color: #808080;
+	margin-right: 10px;
+	line-height:18px;
+	font-size: x-small;
+	margin-left: auto;
+	font-weight:bold;
+}
+
+.content{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: left;
+	line-height: 2em;
+}

@@ -1,0 +1,55 @@
+page{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #fff;
+}
+.navbar{
+  flex: none;
+  display: flex;
+  background: #fff;
+}
+.navbar .item{
+  position: relative;
+  flex: auto;
+  text-align: center;
+  line-height: 80rpx;
+}
+.navbar .item.active{
+  color: #d11d05;
+}
+.navbar .item.active:after{
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4rpx;
+  background: #d11d05;
+}
+
+.all{
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.imag{
+  margin-top: 10px;
+  border-radius: 15px;
+  width: 700rpx;
+  height: 430rpx;
+
+}
+.content{
+  text-align: start;
+  line-height: 28px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 10px;
+}

@@ -1,0 +1,22 @@
+<!--导航条-->
+<view class="navbar">
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>
+</view>
+ 
+<!-- 喵星人 -->
+<view hidden="{{currentTab!==0}}">
+  <view class="all" bindtap="goDetail_cat" data-cat="{{item._id}}" wx:for="{{cat_list}}">
+    <image class="img" src="{{item.image}}"/>
+    <text class="name">{{item.name}}</text>
+  </view>
+</view>
+<!-- 喵星人-end -->
+ 
+<!-- 汪星人 -->
+<view hidden="{{currentTab!==1}}">
+  <view class="all" bindtap="goDetail_dog" data-dog="{{item._id}}"  wx:for="{{dog_list}}">
+    <image class="img" src="{{item.image}}"/>
+    <text class="name">{{item.name}}</text>
+  </view>
+</view>
+<!-- 汪星人-end -->

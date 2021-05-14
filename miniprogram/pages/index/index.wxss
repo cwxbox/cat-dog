@@ -1,0 +1,55 @@
+page{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #fff;
+}
+.all{
+  width: 100%;
+  height: 80px;
+}
+.navbar{
+  flex: none;
+  display: flex;
+  background: #fff;
+}
+.navbar .item{
+  position: relative;
+  flex: auto;
+  text-align: center;
+  line-height: 80rpx;
+}
+.navbar .item.active{
+  color: #d11d05;
+}
+.navbar .item.active:after{
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4rpx;
+  background: #d11d05;
+}
+
+.img{
+  width:100rpx; 
+  height:100rpx; 
+  border-radius:50%; 
+  overflow:hidden;
+  float: left;
+  margin: 20rpx;
+}
+
+.name{
+  float: left;
+  margin-top: 38rpx;
+  margin-left: 1rem;
+  font-size: large;
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  height: 65rpx;
+  width: 550rpx;
+  border-color: #eee;
+}

@@ -1,0 +1,33 @@
+page{
+	background-color: #ffffff;
+}
+
+.all{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.img{
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 650rpx;
+  height: 470rpx;
+}
+.name{
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.character{
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.location{
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
