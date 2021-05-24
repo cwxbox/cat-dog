@@ -22,6 +22,31 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    wx.cloud.database().collection('weiyang_article').get().then(res=>{
+      console.log(res.data[0].content)
+      this.setData({
+        weiyang_article:res.data[0]
+      })
+    }),
+    wx.cloud.database().collection('jibing_article').get().then(res=>{
+      console.log(res.data[0].content)
+      this.setData({
+        jibing_article:res.data[0]
+      })
+    }),
+    wx.cloud.database().collection('jueyu_article').get().then(res=>{
+      console.log(res.data[0].content)
+      this.setData({
+        jueyu_article:res.data[0]
+      })
+    }),
+    wx.cloud.database().collection('lu_article').get().then(res=>{
+      console.log(res.data[0].content)
+      this.setData({
+        lu_article:res.data[0]
+      })
+    })
+
 
   },
 

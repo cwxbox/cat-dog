@@ -2,11 +2,17 @@
 		<text class="text-title">青年志愿者联合会</text>
 		<image class="imge" src="../../images/icon/logo.jpg"></image>
 		<text class="text-title2">协会介绍</text>
-		<text class="content"></text>
-
+		<text class="content">青岛城市学院青年志愿者联合会
+		累计注册人数6500余人，已成为青岛各项国际性活动、赛事志愿服务的“常客"。曾参与2014青岛世界园艺博览会、2015 世界休闲体育大会、2016 世界柔道大奖赛、山东省第24届运动会闭幕式、2018 上海合作组织青岛峰会、2019“创青春"中国青年创新创业大赛等30余项大型赛事赛会。城院志愿者以极高的工作标准和优异的服务成绩先后受到团中央和青岛市政府的表彰,用出色的表现获得了各界的广泛赞誉。
+		动物保护俱乐部
+		坚持爱护动物、保护动物,坚决反对任何虐待、残害动物的思想与行为。致力于为城院学子提供参与动物保护的平台,定期开展动物保护活动。
+		</text>
+		<!-- <text class="text-title2">联系我们</text>
+		<text class="content">点击最上方会徽可以查看小程序介绍推送，点击推送中的【北大猫协】可关注我们的公众号，公众号会提供捐赠方式。有问题或建议可以关注琴院志愿者公众号后留言。
+		</text> -->
 		<text class="text-end">2021.4.26 </text>
 		<text class="text-end">小程序开发:储物箱</text>
 		<text class="text-end">程序维护(QQ):1398680844</text>
-    <text class="text-end">萌宠资料合集:</text>
+    <text class="text-end">萌宠资料合集:青年志愿者联合会</text>
 		<text class="content"></text>
 </view>
