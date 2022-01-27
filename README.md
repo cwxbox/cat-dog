@@ -44,7 +44,7 @@ git clone https://gitee.com/cwxbox/cat-dog.git
 
 #### 使用说明
 
-
+[![4EcDr4.jpg](https://z3.ax1x.com/2021/09/15/4EcDr4.jpg)](https://imgtu.com/i/4EcDr4)
 
 ### 小程序开发者信息
 
